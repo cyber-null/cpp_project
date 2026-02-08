@@ -9,7 +9,7 @@ using namespace std;
 
 
 // functions //
-bool winner(string engine_answer, string user_answer);
+void winner(string engine_answer, string user_answer);
 
 
 // toLowerCase function
@@ -96,7 +96,7 @@ int main(){
 }
 
 
-bool winner(string engine_answer, string user_answer){
+void winner(string engine_answer, string user_answer){
   //engine_answer = toLowerCase(engine_answer);
   //user_answer = toLowerCase(user_answer);
 
@@ -125,6 +125,4 @@ bool winner(string engine_answer, string user_answer){
     cout << "\n\t| Yay!, You WIN!! |";
     cout << "\n\t*-----------------*" << "\n\n"; 
   }
-
-  return true;
 }
